@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#14171a] rounded-lg p-6 shadow-xl lg:h-[70%] ">
+    <div class="bg-[#14171a] rounded-lg p-6 shadow-xl lg:h-[70%] lg:hidden w-[95%] mx-auto">
         <h2 class="text-[32px] text-center font-bold mb-2 text-[#ffffff]">Get in touch</h2>
         <p class=" text-[14px] mb-6 text-white">We're committed to providing the best support for our traders!</p>
 
