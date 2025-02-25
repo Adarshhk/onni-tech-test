@@ -8,7 +8,7 @@
 @tailwind utilities;
 
 body{
-    background-color: white;
+    background-color: #06090f;
     font-family: Satoshi, sans-serif;
     color: #363737;
     size: 8px;

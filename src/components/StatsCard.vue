@@ -1,44 +1,20 @@
 <template>
-  <div class="bg-[#f2f0fa] backdrop-blur-sm rounded-3xl w-[80%] mx-auto relative z-10 hidden lg:block">
+  <div class="bg-[#14171A] lg:-mt-24 backdrop-blur-sm rounded-3xl w-[80%] mx-auto relative z-10 hidden lg:block border border-white border-opacity-10">
     <div class="grid grid-cols-3">
       <!-- Left Content -->
       <div class=" p-10 py-16 col-span-2">
-        <p class="text-sm text-[#5A5959] font-medium">Let AI Do the Work!</p>
-        <h2 class="text-2xl md:text-3xl font-bold text-[#363737] mt-2 leading-tight ">
-          “The future of trading isn’t human - AI is transforming markets and trading the future today.”
+        <p class="text-sm text-[white] font-medium">Let AI Do the Work!</p>
+        <h2 class="text-2xl md:text-[32px] font-bold text-[#ffffff] mt-2 leading-tight ">
+          The future of trading isn’t human - <span class="text-[#4984c4]"> AI is transforming markets </span> and trading the future today
         </h2>
       </div>
 
-      <!-- Stats -->
-      <!-- <div class="lg:col-span-4">
-        <div class="grid grid-cols-1 gap-8">
-          <div>
-            <h3 class="text-3xl font-extrabold text-gray-900">
-              {{ count1 }}+
-            </h3>
-            <p class="text-gray-600 mt-1">Customizable Strategies</p>
-          </div>
-          <div>
-            <h3 class="text-3xl font-extrabold text-gray-900">
-              {{ formatNumber(count2) }}+
-            </h3>
-            <p class="text-gray-600 mt-1">Active Users</p>
-          </div>
-          <div>
-            <h3 class="text-3xl font-extrabold text-gray-900">
-              {{ count3 }}%
-            </h3>
-            <p class="text-gray-600 mt-1">Trade Execution Accuracy</p>
-          </div>
-        </div>
-      </div> -->
-
       <!-- Image -->
-       <div class=" bg-white rounded-lg flex justify-end relative">
+       <div class=" mt-10 bg-[#06090F] border border-[#ffffff] border-opacity-10 border-b-0 rounded-t-lg flex justify-end relative mr-10">
         <img 
           src="/src/assets/img/professional.webp" 
           alt="Professional trader" 
-          class="absolute w-64 bottom-0"
+          class="absolute w-64 bottom-0 left-16"
         />
       </div> 
     </div>

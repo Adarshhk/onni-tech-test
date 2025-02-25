@@ -1,39 +1,16 @@
 <template>
-    <div class="bg-[#f2f0fa] backdrop-blur-sm rounded-3xl  p-6 max-w-5xl w-full mx-5 relative z-10 ">
+    <div class="bg-[#14171a] backdrop-blur-sm rounded-3xl mt-10 p-6 max-w-5xl w-full mx-5  border border-[#ffffff] border-opacity-10">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
         <!-- Left Content -->
         <div class="lg:col-span-5">
-          <p class="text-sm text-gray-600 font-medium text-center">Let AI Do the Work!</p>
-          <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mt-2 leading-tight text-center">
+          <p class="text-sm text-white font-medium text-center">Let AI Do the Work!</p>
+          <h2 class="text-2xl md:text-3xl font-bold text-[#E8E0E0] mt-2 leading-tight text-center">
             “The future of trading isn’t human - AI is transforming markets and trading the future today.”
 
           </h2>
         </div>
   
-        <!-- Stats -->
-        <div class="lg:col-span-4">
-          <div class="grid grid-cols-1 gap-8 text-center">
-            <div>
-              <h3 class="text-3xl font-bold text-gray-900">
-                {{ count1 }}+
-              </h3>
-              <p class="text-gray-600 mt-1">Customizable Strategies</p>
-            </div>
-            <div>
-              <h3 class="text-3xl font-bold text-gray-900">
-                {{ formatNumber(count2) }}+
-              </h3>
-              <p class="text-gray-600 mt-1">Active Users</p>
-            </div>
-            <div>
-              <h3 class="text-3xl font-bold text-gray-900">
-                {{ count3 }}%
-              </h3>
-              <p class="text-gray-600 mt-1">Trade Execution Accuracy</p>
-            </div>
-          </div>
-        </div>
-  
+        
   
       </div>
     </div>
