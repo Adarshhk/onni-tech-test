@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex justify-between items-center px-6 py-1 bg-[#14171A]">
+  <nav class="flex justify-between items-center px-6 py-2 bg-[#F3F8F9]">
     <!-- Logo -->
     <div>
       <img src="../assets/svg/logo.svg" alt="" class="w-36 md:ml-10  ">
@@ -18,7 +18,7 @@
     </ul>
     
     <!-- Join Button -->
-    <a target="_blank" href="https://app.omnitechalgo.com/" class="hidden md:block px-6 py-2 bg-[#21A5F0] text-white rounded-md ">
+    <a target="_blank" href="https://app.omnitechalgo.com/" class="hidden md:block px-6 py-3 bg-[#4984C4] text-white rounded-md ">
       Join Now
     </a>
     

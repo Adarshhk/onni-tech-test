@@ -1,5 +1,5 @@
 <template>
-    <div class="sticky top-0 z-50 bg-[#304B82] flex justify-between md:px-24 px-3 py-1">
+    <div class="sticky top-0 z-50 bg-[#06090F] flex justify-between md:px-24 px-3 py-1">
         <div class="flex items-center gap-1 text-white ">
             <img src="/src/assets/svg/call-2.svg" alt="" class="w-4">&nbsp;
             <p class="text-[13px] font-[400]">
@@ -12,7 +12,7 @@
 
         <div class="lg:flex gap-4 items-center hidden ">
             <a v-for="item in social" :href="item.link" target="_blank" rel="noopener noreferrer">
-                <img :src="item.icon" alt="" class="w-7">
+                <img :src="item.icon" alt="" class="w-[40px]">
             </a>
         </div>
     </div>

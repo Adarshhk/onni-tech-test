@@ -6,21 +6,24 @@
     <div class="container mx-auto px-4 lg:px-16 ">
       <div class="flex flex-col lg:flex-row gap-12">
         <!-- Left Column -->
-        <div class="max-w-xl w-full xl:ml-10 relative mx-auto">
-          <div class="relative z-10">
-            <h2 class="text-2xl md:text-4xl font-extrabold text-white mb-6 text-center xl:text-left">
-              The Ultimate Trading Features for Market Mastery
-            </h2>
-            <p class="text-[#E8E0E0] mb-8 text-center xl:text-left">
-              Explore the power of intelligent trading with features designed for precision, speed, and seamless
-              automation.
-            </p>
+        <div class="max-w-xl w-full xl:ml-10 relative mx-auto ">
+          <div class="sticky top-0 ">
+            <div class="relative z-10">
+              <h2 class="text-2xl md:text-4xl font-extrabold text-white mb-6 text-center xl:text-left">
+                The Ultimate Trading Features for Market Mastery
+              </h2>
+              <p class="text-[#E8E0E0] mb-8 text-center xl:text-left">
+                Explore the power of intelligent trading with features designed for precision, speed, and seamless
+                automation.
+              </p>
+            </div>
+
+            <button @click="redirectToLogin"
+              class="bg-[#4984C4] text-white px-8 py-4 rounded-md font-medium transition-colors flex justify-center items-center mx-auto xl:mx-0">
+              Join Now
+            </button>
           </div>
 
-          <button @click="redirectToLogin"
-            class="bg-[#4984C4] text-white px-8 py-4 rounded-md font-medium transition-colors flex justify-center items-center mx-auto xl:mx-0">
-            Join Now
-          </button>
           <!-- Background Radial Gradient -->
           <div class="absolute inset-0 flex md:hidden items-center justify-center">
             <div
@@ -46,7 +49,8 @@
           </div>
 
           <!-- Instant Alerts -->
-          <div class="bg-[#14171A] border border-white border-opacity-10 rounded-xl p-6 row-span-2 pt-16 shadow-sm flex flex-col">
+          <div
+            class="bg-[#14171A] border border-white border-opacity-10 rounded-xl p-6 row-span-2 pt-16 shadow-sm flex flex-col">
             <div class="mb-4 flex items-center justify-start h-16">
               <div ref="riskManagementAnimation" class="w-16 h-16"></div>
             </div>
@@ -60,7 +64,8 @@
           </div>
 
           <!-- AI-Powered Market Insights -->
-          <div class="bg-[#14171A] border border-white border-opacity-10 rounded-xl p-6 row-span-2 pt-16 shadow-sm flex flex-col">
+          <div
+            class="bg-[#14171A] border border-white border-opacity-10 rounded-xl p-6 row-span-2 pt-16 shadow-sm flex flex-col">
             <div class="mb-4 flex items-center justify-start h-16">
               <div ref="multiAssetsAnimation" class="w-16 h-16"></div>
             </div>

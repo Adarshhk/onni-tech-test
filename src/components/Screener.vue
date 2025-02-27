@@ -1,8 +1,9 @@
 <template>
   <StickyTopBar />
   <Navbar />
-  <Tutorial />
-  <MobileForm/>
+  <!-- <Tutorial />
+  <MobileForm/> -->
+  <NewHero />
   <StatsCard />
   
   <div class="mt-32 justify-center items-center w-full md:mt-10 mb-10 flex xl:hidden">
@@ -19,6 +20,7 @@
 </template>
 
 <script setup>
+import NewHero from "./NewHero.vue";
 import MobileForm from "./MobileForm.vue";
 import Features from "./Features.vue";
 import Tutorial from "./Tutorial.vue";

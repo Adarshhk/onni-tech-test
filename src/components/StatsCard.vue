@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#14171A] lg:-mt-24 backdrop-blur-sm rounded-3xl w-[80%] mx-auto relative z-10 hidden lg:block border border-white border-opacity-10">
+  <div class="bg-[#14171A] mt-24 backdrop-blur-sm rounded-3xl w-[80%] mx-auto relative z-10 hidden lg:block border border-white border-opacity-10">
     <div class="grid grid-cols-3">
       <!-- Left Content -->
       <div class=" p-10 py-16 col-span-2">

@@ -21,7 +21,7 @@
     </div> -->
 
     <div
-      class="flex flex-wrap items-center justify-center sm:gap-3 mb-16 border border-[#4984C4] rounded-full w-max mx-auto p-1">
+      class="flex flex-wrap items-center justify-center sm:gap-3 border border-[#4984C4] rounded-full w-max mx-auto p-1">
 
       <button v-for="item in tabs" :key="item" :class="[
         'py-2 px-4 sm:px-6 rounded-full font-medium transition-colors text-sm md:text-base',
@@ -32,12 +32,17 @@
 
     </div>
 
+    <div class="mx-auto flex max-w-xl mb-10 flex-col items-end">
+        <div ref="desktopLottieContainer" class="w-24 h-16 pr-6 rotate-45"></div>
+        <span class="text-[#21A5F0] ">Save 25%</span>
+    </div>
 
-    <!-- <div class="flex flex-col items-center justify-center text-center transform translate-x-16 mb-8 md:hidden">
+
+    <div class="flex flex-col items-center justify-center text-center transform translate-x-16 mb-8 md:hidden">
    
       <div ref="mobileLottieContainer" class="w-16 h-16 rotate-45"></div>
       <span class="text-[#21A5F0] text-md">Save 25%</span>
-    </div> -->
+    </div>
 
     <div class="flex flex-col text-white lg:flex-row justify-center gap-6 max-w-7xl mx-auto">
       <div v-for="(plan, index) in plans" :key="index" :class="['flex-1 p-6 rounded-xl max-w-md mx-auto w-full',
@@ -81,7 +86,7 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import lottie from 'lottie-web';
-import pricingArrowAnimation from '../assets/json/pricing-arow.json';
+import pricingArrowAnimation from '/src/assets/json/pricing-arow.json';
 
 const activeTab = ref('Monthly');
 
