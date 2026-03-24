@@ -1,137 +1,164 @@
 <template>
-  <footer class="bg-[#14171A] pt-8 px-4 lg:px-16">
+  <footer class="bg-[#0d0f12] pt-12 px-4 lg:px-16">
     <div class="max-w-7xl mx-auto">
-      <div class="grid grid-cols-3 lg:grid-cols-4 gap-8 mb-12">
-        <!-- Logo and Description Column -->
-        <div class="col-span-3 lg:col-span-1 text-center lg:text-left">
-          <div class="flex items-center justify-center lg:justify-start">
-            <img src="../assets/svg/logo.svg" alt="" class="w-36 ">
+      <div class="grid grid-cols-1 lg:grid-cols-4 gap-10 mb-12">
+
+        <!-- Logo and Description -->
+        <div class="footer-col text-left" data-delay="0">
+          <div class="flex items-center">
+            <img src="../assets/omni-light.svg" alt="OmniTech Algo" class="h-12">
           </div>
-          <p class="text-[#ffffff] mt-2 text-sm">
+          <p class="text-gray-300 mt-4 text-sm leading-relaxed">
             Innovative trading solutions designed for efficiency, accuracy, and success
           </p>
-          <div class="flex justify-center xl:justify-start space-x-6 mt-4">
-
-            <a target="_blank" href="https://www.youtube.com/@Diomondstocks" class="text-[#5D3BBB] hover:opacity-80">
-              <img src="../assets/svg/youtube.svg" alt="" class="w-6 h-5">
+          <div class="flex space-x-5 mt-5">
+            <!-- LinkedIn -->
+            <a target="_blank" href="#" class="text-[#4A9EDB] hover:opacity-75 transition-opacity">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
             </a>
-            <a target="_blank" href="https://www.instagram.com/yogesh.kshirsagar2002?igshid=ZDdkNTZiNTM="
-              class="text-[#5D3BBB] hover:opacity-80">
-              <img src="../assets/svg/instagram.svg" alt="" class="w-5 h-5">
-            </a>
+            <!-- Twitter / X -->
             <a target="_blank" href="twitter.com/DiomondstocK?t=QkRn19yAk4yF64TOMtpvTA&s=08"
-              class="text-[#5D3BBB] hover:opacity-80">
-              <img src="../assets/svg/x.svg" alt="" class="w-5 h-5">
+              class="text-[#4A9EDB] hover:opacity-75 transition-opacity">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.742l7.733-8.835L1.254 2.25H8.08l4.261 5.638 5.903-5.638zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+              </svg>
+            </a>
+            <!-- Facebook -->
+            <a target="_blank" href="#" class="text-[#4A9EDB] hover:opacity-75 transition-opacity">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+              </svg>
+            </a>
+            <!-- Instagram -->
+            <a target="_blank" href="-https://www.instagram.com/omnitechalgo"
+              class="text-[#4A9EDB] hover:opacity-75 transition-opacity">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+              </svg>
             </a>
           </div>
         </div>
 
-        <!-- Product Section
-        <div class="text-center lg:text-left">
-          <h3 class="font-semibold text-gray-900 mb-4">Product</h3>
-          <ul class="space-y-3">
-            <li v-for="(item, index) in 5" :key="index">
-              <a href="#" class="text-white hover:text-[#5D3BBB] transition-colors text-sm">
-                Features
-              </a>
-            </li>
-          </ul>
-        </div> -->
-        <div class="text-center lg:text-left">
-          <h3 class="font-semibold text-white mb-4">Legal</h3>
-          <ul class="space-y-3">
-            <li>
-              <a href="#how" class="text-white hover:text-[#5D3BBB] transition-colors text-sm">
-                How it works
-              </a>
-            </li>
-
-            <li>
-              <a href="#why" class="text-white hover:text-[#5D3BBB] transition-colors text-sm">
-                Why algo
-              </a>
-            </li>
-            <li>
-              <a href="#features" class="text-white hover:text-[#5D3BBB] transition-colors text-sm">
-                Features
-              </a>
-            </li>
-            <li>
-              <a href="#pricing" class="text-white hover:text-[#5D3BBB] transition-colors text-sm">
-                Pricing
-              </a>
-            </li>
-          </ul>
-        </div>
-
-
-
-
-        <!-- Company Section -->
-        <div class="text-center lg:text-left">
-          <h3 class="font-semibold text-white mb-4">Quick Links</h3>
-          <ul class="space-y-3">
-            <li>
-              <a href="#how" class="text-white hover:text-[#5D3BBB] transition-colors text-sm">
-                How it works
-              </a>
-            </li>
-
-            <li>
-              <a href="#why" class="text-white hover:text-[#5D3BBB] transition-colors text-sm">
-                Why algo
-              </a>
-            </li>
-            <li>
-              <a href="#features" class="text-white hover:text-[#5D3BBB] transition-colors text-sm">
-                Features
-              </a>
-            </li>
-            <li>
-              <a href="#pricing" class="text-white hover:text-[#5D3BBB] transition-colors text-sm">
-                Pricing
-              </a>
-            </li>
-          </ul>
-        </div>
-
-
-
-        <!-- Contact Section -->
-        <div class="col-span-3 lg:col-span-1 text-center lg:text-left">
-          <h3 class="font-semibold text-white mb-4">Address</h3>
+        <!-- Quick Links -->
+        <div class="footer-col lg:pl-8" data-delay="100">
+          <h3 class="font-bold text-white mb-6 text-base tracking-wide">Quick links</h3>
           <ul class="space-y-4">
-            <li class="flex items-center md:justify-center xl:justify-start">
-              <img src="../assets/svg/location.svg" alt="" class="w-5 h-5 mr-3 mt-1">
-              <a class="text-white text-sm">556 ,MH.B COLONY ,SATPUR COLONY, NASHIK</a>
+            <li><a href="#why" class="text-gray-300 hover:text-[#4A9EDB] transition-colors text-sm">Why Algo</a></li>
+            <li><a href="#pricing" class="text-gray-300 hover:text-[#4A9EDB] transition-colors text-sm">Pricing</a></li>
+            <li><a href="#features" class="text-gray-300 hover:text-[#4A9EDB] transition-colors text-sm">Features</a>
             </li>
-          </ul>
-          <h3 class="font-semibold text-white my-4">Contact Us</h3>
-          <ul class="space-y-4">
-            <li class="flex items-center md:justify-center xl:justify-start">
-              <img src="../assets/svg/call.svg" alt="" class="w-5 h-5 mr-3">
-              <a href="tel:+919028033569" class="text-white text-sm">+91-9028033569</a> &nbsp;&nbsp;
-              <a href="tel:+919284280668" class="text-white text-sm">+91-9284280668</a>
+            <li><a href="#how" class="text-gray-300 hover:text-[#4A9EDB] transition-colors text-sm">How it works</a>
             </li>
-            <li class="flex items-center md:justify-center xl:justify-start">
-              <img src="../assets/svg/mail.svg" alt="" class="w-4 h-4 mr-3">
-              <a href="mailto: info@omnitechalgo.com" class="text-white text-sm">
-                info@omnitechalgo.com
-              </a>
-            </li>
-
+            <li><a href="#videos" class="text-gray-300 hover:text-[#4A9EDB] transition-colors text-sm">Videos</a></li>
           </ul>
         </div>
+
+        <!-- Legal -->
+        <div class="footer-col" data-delay="200">
+          <h3 class="font-bold text-white mb-6 text-base tracking-wide">Legal</h3>
+          <ul class="space-y-4">
+            <li><a href="#terms" class="text-gray-300 hover:text-[#4A9EDB] transition-colors text-sm">Terms &amp;
+                Conditions</a></li>
+            <li><a href="#trading-rules" class="text-gray-300 hover:text-[#4A9EDB] transition-colors text-sm">Trading
+                Rules and Discipline</a></li>
+            <li><a href="#privacy" class="text-gray-300 hover:text-[#4A9EDB] transition-colors text-sm">Privacy
+                Policy</a></li>
+            <li><a href="#refund" class="text-gray-300 hover:text-[#4A9EDB] transition-colors text-sm">Refund Policy</a>
+            </li>
+            <li><a href="#disclosure"
+                class="text-gray-300 hover:text-[#4A9EDB] transition-colors text-sm">Disclosure</a></li>
+          </ul>
+        </div>
+
+        <!-- Address & Contact -->
+        <div class="footer-col" data-delay="300">
+          <h3 class="font-bold text-white mb-6 text-base tracking-wide">Address</h3>
+          <p class="text-gray-300 text-sm leading-relaxed mb-6">
+            556 ,MH.B Colony ,Satpur colony, Nashik
+          </p>
+
+          <h3 class="font-bold text-white mb-4 text-base tracking-wide">Contact</h3>
+          <div class="space-y-2 mb-6">
+            <a href="tel:+919823058953"
+              class="block text-gray-300 hover:text-[#4A9EDB] transition-colors text-sm">+91-9823058953</a>
+
+          </div>
+
+          <h3 class="font-bold text-white mb-3 text-base tracking-wide">Email</h3>
+          <a href="mailto:info@omnitechalgo.com"
+            class="text-[#4A9EDB] hover:opacity-75 transition-opacity text-sm underline underline-offset-2">
+            info@omnitechalgo.com
+          </a>
+        </div>
+
       </div>
 
       <!-- Copyright -->
-      <div class="text-center text-white py-4 border-t border-gray-200 text-sm">
-        All Rights Reserved
+      <div
+        class="footer-copy border-t border-gray-700 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-gray-400">
+        <div class="flex items-center gap-2">
+          <span>Backed By</span>
+          <img src="../assets/xtention.png" alt="Xtention" class="h-6">
+        </div>
+        <span>All Rights Reserved</span>
       </div>
     </div>
   </footer>
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { onMounted, onUnmounted } from 'vue';
+
+let observer = null;
+
+const initObserver = () => {
+  observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const delay = Number(el.dataset.delay || 0);
+          setTimeout(() => el.classList.add('in-view'), delay);
+          observer.unobserve(el);
+        }
+      });
+    },
+    { threshold: 0.1 }
+  );
+
+  document.querySelectorAll('.footer-col, .footer-copy').forEach((el) =>
+    observer.observe(el)
+  );
+};
+
+onMounted(() => initObserver());
+onUnmounted(() => observer?.disconnect());
 </script>
+
+<style scoped>
+.footer-col {
+  opacity: 0;
+  transform: translateY(36px);
+  transition: opacity 0.65s ease, transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.footer-col.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.footer-copy {
+  opacity: 0;
+  transition: opacity 0.6s ease 0.4s;
+}
+
+.footer-copy.in-view {
+  opacity: 1;
+}
+</style>

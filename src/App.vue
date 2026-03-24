@@ -1,5 +1,5 @@
-<template >
-<Screener/>
+<template>
+    <RouterView />
 
 </template>
 

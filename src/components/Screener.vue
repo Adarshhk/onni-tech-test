@@ -4,15 +4,18 @@
   <!-- <Tutorial />
   <MobileForm/> -->
   <NewHero />
+  <Why id="pricing" />
+
   <StatsCard />
-  
+  <Globe id="why" />
+
+  <Cards id="features" />
+
+
   <div class="mt-32 justify-center items-center w-full md:mt-10 mb-10 flex xl:hidden">
     <StatsCardMobile />
   </div>
-  <Globe id="why"/>
-  <Cards id="features"/>
-  <Why id="pricing" />
-  <Comparison id="how"/>
+  <Comparison id="how" />
   <Video />
   <Features id="features" />
 
